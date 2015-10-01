@@ -33,6 +33,9 @@ Plugin 'scrooloose/syntastic'
 "Jedi python autocompletion"
 Plugin 'davidhalter/jedi-vim'
 
+"nerd tree"
+Plugin 'scrooloose/nerdtree'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -140,3 +143,4 @@ let g:syntastic_check_on_wq = 0
 set laststatus=2
 let g:airline_powerline_fonts=1
 let $PYTHONPATH='/usr/lib/python3.4/site-packages'
+autocmd vimenter * NERDTree
