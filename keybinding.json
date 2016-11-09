@@ -1,0 +1,27 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key" : "shift+F10",
+    "command": "python.execInTerminal"
+    },
+    {
+        "key" : "ctrl+backspace",
+        "command" : "deleteWordLeft"
+    },
+    {
+        "key" : "ctrl+f4",
+        "command" : "workbench.action.closeActiveEditor"
+    }, 
+    { 
+        "key": "ctrl+f7",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
+    {
+        "key" : "alt+right",
+        "command" : "workbench.action.switchWindow"
+    },
+    {
+        "key" : "alt+left",
+        "command" : "workbench.files.action.focusFilesExplorer"
+    }
+]
